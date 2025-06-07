@@ -13,7 +13,7 @@ Bu proje, AES şifreleme yöntemi ve SHA256 özet fonksiyonu kullanılarak geli�
 -  **SHA256 Metin ve Dosya Özeti**  
   Girilen metnin veya yüklenen dosyanın SHA256 özeti hesaplanabilir.
 
-## 🛠 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 - Python
 - Flask
