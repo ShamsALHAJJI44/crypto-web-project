@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>AES Metin Şifreleme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light text-dark">
+  <div class="container py-5">
+    <h2 class="mb-4">🔐 Metin Şifreleme (AES)</h2>
+    <form method="post">
+      <div class="mb-3">
+        <label class="form-label">Metin:</label>
+        <textarea name="text" class="form-control" required></textarea>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Şifreleme Anahtarı:</label>
+        <input type="text" name="key" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <button name="action" value="encrypt" class="btn btn-success">Şifrele</button>
+        <button name="action" value="decrypt" class="btn btn-warning">Çöz</button>
+      </div>
+    </form>
+    {% if result %}
+      <div class="alert alert-info mt-4">
+        <strong>Sonuç:</strong><br>
+        <textarea class="form-control" readonly rows="6">{{ result }}</textarea>
+      </div>
+    {% endif %}
+    <a href="/" class="btn btn-secondary mt-3">⬅ Ana Sayfa</a>
+  </div>
+</body>
+</html>
