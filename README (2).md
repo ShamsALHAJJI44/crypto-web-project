@@ -1,26 +1,26 @@
-# 🔐 AES Tabanlı Kripto Uygulaması (Flask)
+#  AES Tabanlı Kripto Uygulaması (Flask)
 
 Bu proje, AES şifreleme yöntemi ve SHA256 özet fonksiyonu kullanılarak geliştirilen bir web tabanlı kripto uygulamasıdır. Uygulama Python dili ve Flask framework'ü ile yazılmıştır.
 
-## 🎯 Özellikler
+##  Özellikler
 
-- 🧾 **AES Metin Şifreleme / Çözme**  
+-  **AES Metin Şifreleme / Çözme**  
   Kullanıcıdan alınan metin, AES algoritması ile şifrelenip çözülebilir.
 
-- 📁 **Dosya Şifreleme / Çözme (AES)**  
+-  **Dosya Şifreleme / Çözme (AES)**  
   Yüklenen dosyalar AES algoritması ile şifrelenip, indirilebilir hale getirilir. Aynı şekilde çözme işlemi yapılabilir.
 
-- 🧬 **SHA256 Metin ve Dosya Özeti**  
+-  **SHA256 Metin ve Dosya Özeti**  
   Girilen metnin veya yüklenen dosyanın SHA256 özeti hesaplanabilir.
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠 Kullanılan Teknolojiler
 
 - Python
 - Flask
 - HTML & Bootstrap 5
 - PyCryptodome kütüphanesi
 
-## 🖥️ Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
 ```bash
 pip install flask pycryptodome
@@ -30,7 +30,7 @@ python app.py
 Tarayıcıda aç:  
 http://127.0.0.1:5000/
 
-## 🧪 Ana Sayfa
+##  Ana Sayfa
 
 Ana Sayfa:
 
@@ -49,9 +49,9 @@ Uygulamanın ana menüsüdür. Kullanıcı buradan metin şifreleme, dosya şifr
 
 Bu sayfada kullanıcı, istediği metni AES algoritması ile şifreleyebilir veya daha önce şifrelenmiş bir metni çözebilir. Şifreleme işlemi için bir anahtar (şifre) girilmesi gerekir.
 
-## 📁 Dosya Şifreleme / Çözme (AES)
+##  Dosya Şifreleme / Çözme (AES)
 
-### 🔼 1. Dosya Yükleme Arayüzü
+###  1. Dosya Yükleme Arayüzü
 
 ![Dosya Yükleme](screenshots/dosyaDown.png)
 
@@ -59,7 +59,7 @@ Kullanıcı bu alandan şifrelemek veya çözmek istediği dosyayı seçer ve ş
 
 ---
 
-### 🔐 2. Şifreleme Sonucu
+###  2. Şifreleme Sonucu
 
 ![Şifreleme Sonucu](screenshots/dosyaSifreleme.png)
 
@@ -67,15 +67,15 @@ Kullanıcı bu alandan şifrelemek veya çözmek istediği dosyayı seçer ve ş
 
 ---
 
-### 🔓 3. Çözme Sonucu
+###  3. Çözme Sonucu
 
 ![Çözme Sonucu](screenshots/dosyaCozme.png)
 
 Kullanıcı doğru anahtarı girerek dosyanın şifresini başarıyla çözebilir ve çözülen dosyayı indirebilir.
 
-## 🔐 SHA256 Metin ve Dosya Özeti
+##  SHA256 Metin ve Dosya Özeti
 
-### 📝 1. Metin Hash İşlemi
+###  1. Metin Hash İşlemi
 
 ![Metin Hash](screenshots/metinHash.png)
 
@@ -83,7 +83,7 @@ Kullanıcı bu alana bir metin girerek, SHA256 algoritmasıyla özet (hash) değ
 
 ---
 
-### 📄 2. Dosya Hash İşlemi
+###  2. Dosya Hash İşlemi
 
 ![Dosya Hash](screenshots/dosyaHash.png)
 
@@ -91,14 +91,14 @@ Kullanıcı bir dosya yükleyerek SHA256 özetini alabilir. Sistem, dosyanın i�
 
 
 
-## 👤 Geliştirici
+##  Geliştirici
 
 **Öğrenci: Shams AL HAJJI**  
 
 
 ---
 
-## 📂 Proje Yapısı
+##  Proje Yapısı
 
 ```
 ├── app.py
